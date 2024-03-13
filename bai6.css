@@ -1,0 +1,35 @@
+.container h3, p{
+    text-align: center;
+    color: black;
+}
+#remember-me {
+    width: 15px;
+    cursor: pointer;
+}
+.anh{
+    background-size: cover;
+    display: flex;
+    position: relative;
+    display: inline-block;
+    width: 3100px; 
+     height: autopx;
+    padding: 20px;
+    z-index: -1;
+  }
+body {
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    background: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container input {
+    background-color: lightpink;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container button {
+    background-color: black;
+  }

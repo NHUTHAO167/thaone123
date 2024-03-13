@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+.Thongtin, .lienlac {
+    flex: 1;
+    padding: 10px;
+}
+.Thongtin p {
+    color: #262121;
+}
+h1 {
+    color: blue;
+    text-indent: 250px;
+}
+hr {
+    border-color: red;
+    border-top: 1;
+    margin-left: 2px;
+    margin-right: 25px;
+}
+.container input{   
+    width: 400px;
+    height: 40px;
+    margin-top: 5px;
+}
+.container button {
+    margin-top: 10px;
+    background-color: rgb(63, 156, 213);
+    border-color: rgb(185, 200, 210);
+    width: 200px;
+    height: 35px;
+    
+    color: white;
+    
+    cursor: pointer;
+}
+#noidung {
+    height: 50px;
+}
+.lienlac h3{
+    color: darkviolet;
+}
